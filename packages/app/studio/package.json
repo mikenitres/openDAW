@@ -8,7 +8,8 @@
         "dev": "vite --clearScreen false --host",
         "build": "tsc && vite build",
         "preview": "vite preview",
-        "lint": "eslint \"src/**/*.ts\""
+        "lint": "eslint \"src/**/*.ts\"",
+        "tauri": "tauri"
     },
     "dependencies": {
         "@opendaw/lib-box": "^0.0.47",
@@ -22,6 +23,7 @@
         "@opendaw/studio-boxes": "^0.0.47",
         "@opendaw/studio-core": "^0.0.56",
         "@opendaw/studio-enums": "^0.0.38",
+        "@tauri-apps/api": "^2.9.0",
         "@types/d3-force": "^3.0.10",
         "d3-force": "^3.0.0",
         "dropbox": "^10.34.0",
@@ -34,6 +36,7 @@
     "devDependencies": {
         "@opendaw/eslint-config": "^0.0.20",
         "@opendaw/typescript-config": "^0.0.20",
+        "@tauri-apps/cli": "^2.9.3",
         "@types/markdown-it": "^14.1.2",
         "@types/node": "^22.15.18",
         "eslint": "^8.57.0",
